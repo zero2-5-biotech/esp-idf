@@ -390,7 +390,8 @@ if(CONFIG_BT_ENABLED)
                     host/nimble/nimble/nimble/host/store/ram/include
                     host/nimble/nimble/nimble/host/store/config/include
                     host/nimble/nimble/porting/npl/freertos/include
-                    host/nimble/esp-hci/include)
+                    host/nimble/esp-hci/include
+                    host/nimble/nimble/nimble/host/src)
 
     if(NOT CONFIG_BT_NIMBLE_CRYPTO_STACK_MBEDTLS)
 
